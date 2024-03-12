@@ -4445,12 +4445,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6724740244277745478, guid: 2e9cb09cf14ccd843b71b71e8318e6b1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6724740244277745478, guid: 2e9cb09cf14ccd843b71b71e8318e6b1, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6932015284817195294, guid: 2e9cb09cf14ccd843b71b71e8318e6b1, type: 3}
       propertyPath: m_Name
       value: Mapa_Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932015284817195294, guid: 2e9cb09cf14ccd843b71b71e8318e6b1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032229104308230352, guid: 2e9cb09cf14ccd843b71b71e8318e6b1, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,4 +1,7 @@
 using Cysharp.Threading.Tasks;
+using Enemies.controller;
+using Enemies.view;
+using Enemies.views;
 using Map.views;
 using Player.controllers;
 using Player.views;
@@ -26,8 +29,13 @@ public class GameManager : MonoBehaviour
 
     private async UniTaskVoid CreateGame()
     {
+
         var MapView = await AdresableLoader.InstantiateAsync<IMapView>("Map_Default");
         var playerView = await AdresableLoader.InstantiateAsync<IPlayerView>("Player_Default");
         IPlayerController playerController = new PlayerController(playerView);
+
+        var ZombieView = await AdresableLoader.InstantiateAsync<IzombieView>("Zombie_Default");
+        ZombieView.Transform.position = SpawnManager.Instance.RandomPosition(playerView, ZombieView);
+        IZombieController zombieController = new ZomibeController(ZombieView, playerView);
     }
 }

@@ -104,6 +104,54 @@ MonoBehaviour:
     m_SerializedLabels:
     - Map_Base
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc817a043bc523d438d427fe42145ef8
+    m_Address: Assets/Bundles/Enemies
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Base
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06e6953a801c59040a9c22b6a59e3ef7
+    m_Address: Assets/Bundles/Enemies/Common/Animations
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Base
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d723c6c7d5a8508429835cc5d45ba234
+    m_Address: Assets/Bundles/Enemies/Common/Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Base
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 685f72116968d5e4789d461b8aa9a7de
+    m_Address: Assets/Bundles/Enemies/Common/Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Base
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2f09e223d3380b41ac592f5a700f5df
+    m_Address: Assets/Bundles/Enemies/Common/Prefabs/Zombie_Base.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9257b91abc0ba9a44900407904dc8824
+    m_Address: Assets/Bundles/Enemies/Default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de260f61a7a986d43840b445af737ac4
+    m_Address: Assets/Bundles/Enemies/Common
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b120b95de13f3e41a85d7a4a36c1768
+    m_Address: Assets/Bundles/Enemies/Default/Zombie_default Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Zombie_Base
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2fa62781d98eb264aa388c269f5217dc, type: 2}
   m_SchemaSet:
