@@ -126,7 +126,7 @@ MonoBehaviour:
     m_Address: Assets/Bundles/Enemies/Common/Prefabs
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Zombie_Base
+    - Spawn_Base
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e2f09e223d3380b41ac592f5a700f5df
     m_Address: Assets/Bundles/Enemies/Common/Prefabs/Zombie_Base.prefab
@@ -138,7 +138,7 @@ MonoBehaviour:
     m_Address: Assets/Bundles/Enemies/Default
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Zombie_Default
+    - Spawn_Default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: de260f61a7a986d43840b445af737ac4
     m_Address: Assets/Bundles/Enemies/Common
@@ -151,6 +151,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Zombie_Base
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa7455e76cfc9a4998398578aefaac8
+    m_Address: Assets/Bundles/Enemies/Default/Spawner_Common.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Spawn_Default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a2a53b1ddd1ee141b06e9fac8aacc56
+    m_Address: Assets/Bundles/Enemies/Common/Prefabs/Spawner_Base 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Spawn_Base
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2fa62781d98eb264aa388c269f5217dc, type: 2}

@@ -6,7 +6,7 @@ namespace Enemies.views
     {
         float MoveSpeed { get; }
         Transform Transform { get;}
-
         bool FlipSprite { get; set; }
+        GameObject GameObject { get;}
     }
 }

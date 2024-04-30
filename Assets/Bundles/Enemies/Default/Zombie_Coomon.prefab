@@ -10,7 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 518348773326450313, guid: e2f09e223d3380b41ac592f5a700f5df, type: 3}
       propertyPath: m_Name
-      value: Zombie_default Variant
+      value: Zombie_Coomon
+      objectReference: {fileID: 0}
+    - target: {fileID: 556797458129557390, guid: e2f09e223d3380b41ac592f5a700f5df, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 556797458129557390, guid: e2f09e223d3380b41ac592f5a700f5df, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 556797458129557390, guid: e2f09e223d3380b41ac592f5a700f5df, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1242806726422131840, guid: e2f09e223d3380b41ac592f5a700f5df, type: 3}
       propertyPath: m_LocalPosition.x

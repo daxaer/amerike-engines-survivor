@@ -6,11 +6,11 @@ using Player.views;
 
 namespace Enemies.controller
 {
-    public class ZomibeController : IZombieController
+    public class ZombieController : IZombieController
     {
         private IPlayerView playerView;
         private IzombieView zombieView;
-        public ZomibeController(IzombieView _zombieView, IPlayerView _playerView)
+        public ZombieController(IzombieView _zombieView, IPlayerView _playerView)
         {
             zombieView = _zombieView;
             playerView = _playerView;

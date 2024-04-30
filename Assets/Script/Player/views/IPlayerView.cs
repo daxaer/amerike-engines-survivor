@@ -12,5 +12,7 @@ namespace Player.views
         bool FlipSprite { get; set; }
 
         int MoveState { set; }
+
+        Transform SpawnerAnchor { get;}
     }
 }

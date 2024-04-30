@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: b53c42095939f2047940e67d2882e574
   m_currentHash:
     serializedVersion: 2
-    Hash: b593ec2b6eaaacfed1d31f1d080edf85
+    Hash: f08710e1a5fc8c73bcc57554c2013dc0
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -93,6 +93,8 @@ MonoBehaviour:
     - Map_Base
     - Zombie_Default
     - Zombie_Base
+    - Spawn_Base
+    - Spawn_Default
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 54b3a7cdc3867c844aeb09b117da8a04, type: 2}
